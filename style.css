@@ -11,7 +11,7 @@ body{
 }
 
 header{j
-    background:#b84d00;
+    background:#4E2A1E;
     color:white;
     display:flex;
     justify-content:space-between;
@@ -24,9 +24,9 @@ header{j
 
 .logo{
     font-size:30px;
-    font-weight:bold;
+    font-weight:bold;color:#FFD700;
+    color:#FFD700;
 }
-
 nav a{
     color:white;
     text-decoration:none;
