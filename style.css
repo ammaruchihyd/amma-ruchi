@@ -218,3 +218,96 @@ section h2{
 }
 
 }
+/* ===== Premium Hero ===== */
+
+.logo img{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+}
+
+.hero{
+    background:linear-gradient(135deg,#fff8e7,#fff3d6);
+    padding:80px 8%;
+}
+
+.hero-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    flex:1;
+    min-width:300px;
+}
+
+.hero-text h1{
+    font-size:52px;
+    color:#b84d00;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+.hero-images{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.jar{
+    text-align:center;
+}
+
+.jar img{
+    width:170px;
+    transition:.3s;
+}
+
+.jar img:hover{
+    transform:translateY(-10px) scale(1.05);
+}
+
+.jar span{
+    display:block;
+    margin-top:10px;
+    font-size:20px;
+    font-weight:bold;
+    color:#b84d00;
+}
+
+@media(max-width:768px){
+
+.hero{
+    padding:50px 20px;
+}
+
+.hero-content{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:34px;
+}
+
+.hero-text p{
+    font-size:18px;
+}
+
+.jar img{
+    width:120px;
+}
+
+.logo img{
+    width:55px;
+}
+}
